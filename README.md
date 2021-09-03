@@ -1,4 +1,14 @@
-# Getting Started with Create React App
+# About this project
+
+This is a ReactJS demo application that contains all basic concept implementation with easy to understand folder structure.
+
+Any person learning ReactJS can refer to this repo as it contains all core feature implemamtation that requires for beginners.
+
+Code structure is very declarative using proper comments. Comments are provided wherever required to explain some scenarios or rules or any other info.
+
+# Some ReactJS specific default documentation
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
