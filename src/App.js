@@ -1,7 +1,9 @@
 import './App.css';
-import PlainFunClassComponents from './components/PlainFunClassComponents'
-import { PropsDemo } from './components/PropsDemo'
-import { StateWithClassComp } from './components/StateWithClassComp'
+import PlainFunClassComponents from './components/plain_comps/PlainFunClassComponents'
+import { PropsDemo } from './components/props/PropsDemo'
+import { StateWithClassComp } from './components/state/StateWithClassComp'
+import { MethodAsPropParent } from './components/props/MethodAsPropParent'
+import { ConditionalRendering } from './components/rendering/ConditionalRendering';
 
 function App() {
   return (
@@ -9,6 +11,8 @@ function App() {
       <PlainFunClassComponents/>
       <PropsDemo name='Prince'> Children prop </PropsDemo>
       <StateWithClassComp/>
+      <MethodAsPropParent/>
+      <ConditionalRendering/>
     </div>
   );
 }
