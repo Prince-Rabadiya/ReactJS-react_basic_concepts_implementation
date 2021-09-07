@@ -29,6 +29,7 @@ export class LCA extends Component {
         console.log('LCA render')
         return (
             <div>
+                <h3>Class component life cycle methods</h3>
                 LCA
                 <LCB/>
                 <Divider/>

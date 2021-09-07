@@ -9,6 +9,7 @@ import './App.css';
 // import { Form } from './components/form_handling/Form';
 import { LCA } from './components/life_cycle_methods/LCA'
 import { LCC } from './components/life_cycle_methods/LCC'
+import Parent from './components/pure_component/Parent';
 
 function App() {
   return (
@@ -23,8 +24,9 @@ function App() {
       <InlineCss/>
       <StyleWithModuleCss/>
       <Form/> */}
-      <LCA/>
-      <LCC/>
+      {/* <LCA/>
+      <LCC/> */}
+      <Parent/>
     </div>
   );
 }

@@ -29,7 +29,9 @@ export const InlineCss = () => {
 
 export const StyleWithModuleCss = () => {
     return(
-        <React.Fragment> {/*can use fragment when you don't want to wrap jsx into one specific div*/}
+        <React.Fragment> 
+            {/* can use fragment when you don't want to wrap jsx into one specific div(can pass only key as parameter) */}
+            {/* Also can wrap with <></>(empty tag) but can't pass key as argument*/}
             <p className={style.bgAqua}>styling with module css</p>
             <Divider/>
         </React.Fragment>
