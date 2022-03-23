@@ -7,9 +7,11 @@ import './App.css';
 // import { ListRendering } from './components/rendering/ListRendering';
 // import { InlineCss, StyleWithModuleCss, StylingWithCss } from './components/styling/StylingWithCss';
 // import { Form } from './components/form_handling/Form';
-import { LCA } from './components/life_cycle_methods/LCA'
-import { LCC } from './components/life_cycle_methods/LCC'
-import Parent from './components/pure_component/Parent';
+// import { LCA } from './components/life_cycle_methods/LCA'
+// import { LCC } from './components/life_cycle_methods/LCC'
+// import Parent from './components/pure_component/Parent';
+import RefsDemoParent from './components/refs/RefsDemoParent';
+import ForwardRefParentComp from './components/refs/forwarding_refs/ForwardRefParentComp';
 
 function App() {
   return (
@@ -26,7 +28,9 @@ function App() {
       <Form/> */}
       {/* <LCA/>
       <LCC/> */}
-      <Parent/>
+      {/* <Parent/> */}
+      <RefsDemoParent/>
+      <ForwardRefParentComp/>
     </div>
   );
 }

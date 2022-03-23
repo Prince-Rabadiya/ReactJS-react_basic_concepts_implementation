@@ -13,4 +13,4 @@ class PureChild extends PureComponent {
     }
 }
 
-export default PureChild
+export default PureChild // In functional component pure component doesn't exist. To achieve this functionality in func comp React.memo can be used like this export default React.memo(PureChild)
