@@ -10,8 +10,17 @@ import './App.css';
 // import { LCA } from './components/life_cycle_methods/LCA'
 // import { LCC } from './components/life_cycle_methods/LCC'
 // import Parent from './components/pure_component/Parent';
-import RefsDemoParent from './components/refs/RefsDemoParent';
-import ForwardRefParentComp from './components/refs/forwarding_refs/ForwardRefParentComp';
+// import RefsDemoParent from './components/refs/RefsDemoParent';
+// import ForwardRefParentComp from './components/refs/forwarding_refs/ForwardRefParentComp';
+// import ComponentWithError from './components/errror_boundries/ComponentWithError'
+// import ErrorBoundryDemo from './components/errror_boundries/ErrorBoundryDemo'
+// import HOCChildA from './components/higher_order_components/HOCChildA';
+// import HOCChildB from './components/higher_order_components/HOCChildB';
+// import RenderPropCounter from './components/rendering_props/RenderPropCounter';
+// import RenderPropParent from './components/rendering_props/RenderPropParent';
+// import ContextDemo1 from './components/context/ContextDemo1';
+// import { UserContextProvider } from './components/context/userContext';
+
 
 function App() {
   return (
@@ -26,11 +35,31 @@ function App() {
       <InlineCss/>
       <StyleWithModuleCss/>
       <Form/> */}
-      {/* <LCA/>
+      
+      {/* <LCA/> // life cycle methods
       <LCC/> */}
-      {/* <Parent/> */}
-      <RefsDemoParent/>
-      <ForwardRefParentComp/>
+      
+      {/* <Parent/>  // pure component demo */}
+      
+      {/* <RefsDemoParent/>
+      <ForwardRefParentComp/> // references and forwarding references */}
+      
+      {/* <ErrorBoundryDemo>
+        <ComponentWithError name='prince' />
+      </ErrorBoundryDemo>
+      <ErrorBoundryDemo>
+        <ComponentWithError name='wrong' />
+      </ErrorBoundryDemo> */}
+      
+      {/* <HOCChildA/> // higher order components
+      <HOCChildB/> */}
+
+      {/* <RenderPropParent render={(count, incrementCount) => <RenderPropCounter count={count} incrementCount={incrementCount} />} /> */}
+      {/* rendering props(can achieve same functionality as HOC) */}
+
+      {/* <UserContextProvider value='new user'> // context(used to pass params directly to the intermediate component in the hierarchy)
+        <ContextDemo1/>
+      </UserContextProvider> */}
     </div>
   );
 }
